@@ -1,0 +1,392 @@
+{
+  "concerns": [
+    {
+      "id": "bone",
+      "name": "뼈·관절",
+      "icon": "🦴"
+    },
+    {
+      "id": "eye",
+      "name": "눈",
+      "icon": "👁️"
+    },
+    {
+      "id": "fatigue",
+      "name": "피로·기력",
+      "icon": "🔋"
+    },
+    {
+      "id": "vessel",
+      "name": "혈관·심장",
+      "icon": "🫀"
+    },
+    {
+      "id": "sleep",
+      "name": "수면",
+      "icon": "😴"
+    },
+    {
+      "id": "immune",
+      "name": "면역",
+      "icon": "🛡️"
+    },
+    {
+      "id": "gut",
+      "name": "장·소화",
+      "icon": "🌱"
+    },
+    {
+      "id": "brain",
+      "name": "두뇌·신경",
+      "icon": "🧠"
+    }
+  ],
+  "supplements": {
+    "vitamin-d": {
+      "name": "비타민D",
+      "goodFor": [
+        "bone",
+        "immune"
+      ],
+      "goodForText": [
+        "뼈 건강·칼슘 흡수",
+        "면역력",
+        "근력 유지"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+",
+        "실내 생활 많은 분"
+      ],
+      "bestTime": "지방과 함께(식후) — 지용성",
+      "goodWith": [
+        "calcium",
+        "vitamin-k2",
+        "magnesium"
+      ],
+      "badWith": [],
+      "caution": "고용량 장기 복용 시 혈중 칼슘 과다 주의. 신장질환자는 상담 필요.",
+      "article": "supplements/vitamin-d.html"
+    },
+    "calcium": {
+      "name": "칼슘",
+      "goodFor": [
+        "bone"
+      ],
+      "goodForText": [
+        "뼈·골다공증 예방",
+        "치아 건강"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+",
+        "폐경 여성"
+      ],
+      "bestTime": "식후, 저녁 (한 번에 500mg 이하로 나눠서)",
+      "goodWith": [
+        "vitamin-d",
+        "vitamin-k2",
+        "magnesium"
+      ],
+      "badWith": [
+        "iron",
+        "zinc"
+      ],
+      "caution": "한 번에 500mg 이하로 나눠 섭취 권장. 철분·아연과는 시간 간격.",
+      "article": "supplements/calcium.html"
+    },
+    "magnesium": {
+      "name": "마그네슘",
+      "goodFor": [
+        "sleep",
+        "bone",
+        "brain"
+      ],
+      "goodForText": [
+        "근육 이완·눈밑 떨림",
+        "수면·긴장 완화",
+        "뼈 건강"
+      ],
+      "ageGroup": [
+        "전 연령",
+        "다리 저림·쥐가 잦은 분"
+      ],
+      "bestTime": "저녁·자기 전",
+      "goodWith": [
+        "calcium",
+        "vitamin-d",
+        "vitamin-b"
+      ],
+      "badWith": [],
+      "caution": "과다 시 설사 유발. 신장질환자는 상담 필요.",
+      "article": "supplements/magnesium.html"
+    },
+    "omega3": {
+      "name": "오메가3 (EPA·DHA)",
+      "goodFor": [
+        "vessel",
+        "eye",
+        "brain"
+      ],
+      "goodForText": [
+        "혈중 중성지방·혈관 건강",
+        "눈 건조",
+        "두뇌·기억"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+"
+      ],
+      "bestTime": "식후 (지방과 함께)",
+      "goodWith": [
+        "vitamin-d",
+        "coq10"
+      ],
+      "badWith": [],
+      "caution": "혈액을 묽게 하므로 항응고제(와파린 등) 복용자·수술 전에는 반드시 상담.",
+      "article": "supplements/omega3.html"
+    },
+    "glucosamine": {
+      "name": "글루코사민",
+      "goodFor": [
+        "bone"
+      ],
+      "goodForText": [
+        "관절 연골·무릎 건강"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+",
+        "무릎 불편한 분"
+      ],
+      "bestTime": "식후",
+      "goodWith": [
+        "msm",
+        "omega3"
+      ],
+      "badWith": [],
+      "caution": "당뇨·조개류 알레르기 있으면 확인. 와파린과 함께 시 출혈 경향 주의.",
+      "article": "supplements/glucosamine.html"
+    },
+    "lutein": {
+      "name": "루테인",
+      "goodFor": [
+        "eye"
+      ],
+      "goodForText": [
+        "황반(눈 중심) 건강",
+        "눈부심 완화"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+"
+      ],
+      "bestTime": "식후 (지용성)",
+      "goodWith": [
+        "omega3",
+        "zinc"
+      ],
+      "badWith": [],
+      "caution": "흡연자는 고용량 베타카로틴 복합제 주의. 효과는 수개월 꾸준히.",
+      "article": "supplements/lutein.html"
+    },
+    "probiotics": {
+      "name": "유산균(프로바이오틱스)",
+      "goodFor": [
+        "gut",
+        "immune"
+      ],
+      "goodForText": [
+        "장 건강·배변",
+        "면역"
+      ],
+      "ageGroup": [
+        "전 연령"
+      ],
+      "bestTime": "공복 또는 식후(제품 안내 따라)",
+      "goodWith": [
+        "magnesium"
+      ],
+      "badWith": [],
+      "caution": "면역억제제 복용·중증 질환자는 상담. 항생제와는 2시간 간격.",
+      "article": "supplements/probiotics.html"
+    },
+    "vitamin-b": {
+      "name": "비타민B군",
+      "goodFor": [
+        "fatigue",
+        "brain"
+      ],
+      "goodForText": [
+        "에너지 대사·피로",
+        "신경 건강·손발 저림"
+      ],
+      "ageGroup": [
+        "전 연령",
+        "채식 위주·위장약 오래 드신 분"
+      ],
+      "bestTime": "아침 식후",
+      "goodWith": [
+        "magnesium",
+        "iron"
+      ],
+      "badWith": [],
+      "caution": "소변이 진한 노란색이 될 수 있음(정상). 고용량 B6 장기복용 주의.",
+      "article": "supplements/vitamin-b.html"
+    },
+    "iron": {
+      "name": "철분",
+      "goodFor": [
+        "fatigue"
+      ],
+      "goodForText": [
+        "빈혈·기력",
+        "어지럼(빈혈성)"
+      ],
+      "ageGroup": [
+        "빈혈 진단받은 분",
+        "여성"
+      ],
+      "bestTime": "공복 또는 비타민C와 함께",
+      "goodWith": [
+        "vitamin-c",
+        "vitamin-b"
+      ],
+      "badWith": [
+        "calcium",
+        "zinc"
+      ],
+      "caution": "빈혈이 아닌데 과다 복용 금물. 변비·속쓰림 가능. 칼슘과 시간 간격.",
+      "article": ""
+    },
+    "coq10": {
+      "name": "코엔자임Q10",
+      "goodFor": [
+        "vessel",
+        "fatigue"
+      ],
+      "goodForText": [
+        "심장·혈관",
+        "기력",
+        "스타틴 복용 시 근육통 완화 도움"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+",
+        "고지혈증약 복용자"
+      ],
+      "bestTime": "식후 (지용성)",
+      "goodWith": [
+        "omega3"
+      ],
+      "badWith": [],
+      "caution": "혈압약·와파린과 상호작용 가능하니 복용 중이면 상담.",
+      "article": "supplements/coq10.html"
+    },
+    "vitamin-c": {
+      "name": "비타민C",
+      "goodFor": [
+        "immune"
+      ],
+      "goodForText": [
+        "면역·항산화",
+        "철분 흡수 도움"
+      ],
+      "ageGroup": [
+        "전 연령"
+      ],
+      "bestTime": "식후, 나눠서",
+      "goodWith": [
+        "iron"
+      ],
+      "badWith": [],
+      "caution": "과다 시 속쓰림·설사. 신장결석 병력 있으면 고용량 주의.",
+      "article": "supplements/vitamin-c.html"
+    },
+    "zinc": {
+      "name": "아연",
+      "goodFor": [
+        "immune"
+      ],
+      "goodForText": [
+        "면역",
+        "피부·상처 회복"
+      ],
+      "ageGroup": [
+        "전 연령"
+      ],
+      "bestTime": "식후",
+      "goodWith": [
+        "vitamin-c"
+      ],
+      "badWith": [
+        "calcium",
+        "iron"
+      ],
+      "caution": "장기 고용량은 구리 결핍 유발. 칼슘·철분과 시간 간격.",
+      "article": ""
+    },
+    "vitamin-k2": {
+      "name": "비타민K2",
+      "goodFor": [
+        "bone",
+        "vessel"
+      ],
+      "goodForText": [
+        "칼슘을 뼈로 보냄",
+        "혈관 석회화 예방 도움"
+      ],
+      "ageGroup": [
+        "50대",
+        "60대+"
+      ],
+      "bestTime": "식후 (지용성)",
+      "goodWith": [
+        "vitamin-d",
+        "calcium"
+      ],
+      "badWith": [],
+      "caution": "와파린(항응고제) 복용자는 절대 임의 복용 금지 — 반드시 의사 상담.",
+      "article": ""
+    },
+    "msm": {
+      "name": "MSM(식이유황)",
+      "goodFor": [
+        "bone"
+      ],
+      "goodForText": [
+        "관절 통증·염증 완화 도움"
+      ],
+      "ageGroup": [
+        "관절 불편한 분"
+      ],
+      "bestTime": "식후",
+      "goodWith": [
+        "glucosamine"
+      ],
+      "badWith": [],
+      "caution": "혈액응고 관련 약 복용자는 상담. 위장 불편 가능.",
+      "article": ""
+    },
+    "multivitamin": {
+      "name": "종합비타민",
+      "goodFor": [
+        "fatigue",
+        "immune"
+      ],
+      "goodForText": [
+        "부족하기 쉬운 영양 보충",
+        "기력·면역 지원"
+      ],
+      "ageGroup": [
+        "전 연령",
+        "식사가 불규칙한 분"
+      ],
+      "bestTime": "아침 식후",
+      "goodWith": [],
+      "badWith": [],
+      "caution": "다른 영양제와 성분이 겹쳐 과다될 수 있으니 함께 먹을 때 확인. 철분·비타민A 과다 주의.",
+      "article": "supplements/multivitamin.html"
+    }
+  }
+}

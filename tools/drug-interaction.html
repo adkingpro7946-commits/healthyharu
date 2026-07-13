@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>약·영양제 상호작용 확인 — 같이 먹어도 될까요? | 건강한 하루</title>
+  <meta name="description" content="복용 중인 약(혈압약·당뇨약·스타틴·와파린·갑상선약 등)과 영양제를 함께 먹어도 되는지 등급으로 확인하세요. 주의·시간간격·문제없음을 이유와 함께 안내합니다. 참고용이며 반드시 의사·약사와 상담하세요.">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>window.BASE = "../";</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "약·영양제 상호작용 체크",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" }
+  }
+  </script>
+  <link rel="canonical" href="https://healthyharu.co.kr/tools/drug-interaction.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="약·영양제 상호작용 확인 — 같이 먹어도 될까요? | 건강한 하루">
+  <meta property="og:description" content="복용 중인 약(혈압약·당뇨약·스타틴·와파린·갑상선약 등)과 영양제를 함께 먹어도 되는지 등급으로 확인하세요. 주의·시간간격·문제없음을 이유와 함께 안내합니다. 참고용이며 반드시 의사·약사와 상담하세요.">
+  <meta property="og:url" content="https://healthyharu.co.kr/tools/drug-interaction.html">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="건강한 하루">
+</head>
+<body data-page="tools">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero" id="di-top">
+      <div class="container">
+        <h1>⚠️ 약·영양제 상호작용</h1>
+        <p class="lead">지금 드시는 <b>약</b>과 <b>영양제</b>를 골라 함께 먹어도 되는지 확인하세요.
+          다른 데 없는, 시니어에게 꼭 필요한 기능입니다.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container tool-wrap">
+        <div class="disclaimer-box strong"><span class="di-icon">⚠️</span>
+          <b>복용 약을 바꾸거나 중단하지 마세요.</b> 이 도구는 참고용이며, 정확한 것은 반드시 담당 의사·약사와 상담하세요.</div>
+
+        <div class="tool-step">
+          <h2><span class="step-num">1</span>복용 중인 약을 골라주세요 <span class="muted" style="font-size:.7em;">(여러 개 가능)</span></h2>
+          <div class="choice-grid" id="di-drugs"><p class="muted">불러오는 중…</p></div>
+        </div>
+
+        <div class="tool-step">
+          <h2><span class="step-num">2</span>함께 먹으려는 영양제를 골라주세요 <span class="muted" style="font-size:.7em;">(여러 개 가능)</span></h2>
+          <div class="choice-grid" id="di-sups"><p class="muted">불러오는 중…</p></div>
+        </div>
+
+        <div class="text-center">
+          <button type="button" class="btn btn-primary btn-lg" id="di-check">상호작용 확인하기</button>
+        </div>
+
+        <div id="di-result" class="hidden mt-lg" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="../js/layout.js"></script>
+  <script src="../js/accessibility.js"></script>
+  <script src="../js/drug-interaction.js"></script>
+</body>
+</html>

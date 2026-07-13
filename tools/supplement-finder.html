@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영양제 추천·궁합 체커 — 나에게 맞는 영양제 찾기 | 건강한 하루</title>
+  <meta name="description" content="나이와 건강 고민에 맞는 영양제를 추천하고, 두 가지 이상 영양제를 함께 먹어도 되는지 궁합을 확인합니다. 칼슘·비타민D·오메가3·마그네슘 등.">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>window.BASE = "../";</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "영양제 추천·궁합 체커",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" }
+  }
+  </script>
+  <link rel="canonical" href="https://healthyharu.co.kr/tools/supplement-finder.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="영양제 추천·궁합 체커 — 나에게 맞는 영양제 찾기 | 건강한 하루">
+  <meta property="og:description" content="나이와 건강 고민에 맞는 영양제를 추천하고, 두 가지 이상 영양제를 함께 먹어도 되는지 궁합을 확인합니다. 칼슘·비타민D·오메가3·마그네슘 등.">
+  <meta property="og:url" content="https://healthyharu.co.kr/tools/supplement-finder.html">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="건강한 하루">
+</head>
+<body data-page="tools">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <h1>💊 영양제 추천·궁합</h1>
+        <p class="lead">내 건강 고민에 맞는 영양제를 추천받고, 같이 먹는 영양제끼리
+          <b>궁합</b>이 맞는지 확인하세요.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container tool-wrap">
+        <div class="disclaimer-box"><span class="di-icon">⚠️</span>
+          영양제는 <b>건강 보조</b>이며 치료제가 아닙니다. 아래 정보는 참고용입니다.</div>
+
+        <div class="tabs" role="tablist">
+          <button class="tab-btn" role="tab" data-tab="recommend" aria-selected="true">🔎 추천받기</button>
+          <button class="tab-btn" role="tab" data-tab="combo" aria-selected="false">🤝 궁합 확인</button>
+        </div>
+
+        <!-- 탭1: 추천 -->
+        <div id="tab-recommend">
+          <div class="tool-step">
+            <h2><span class="step-num">1</span>나이대 (선택)</h2>
+            <div class="choice-grid" id="sf-age"></div>
+          </div>
+          <div class="tool-step">
+            <h2><span class="step-num">2</span>어떤 건강이 고민이세요? <span class="muted" style="font-size:.7em;">(여러 개 가능)</span></h2>
+            <div class="choice-grid" id="sf-concerns"><p class="muted">불러오는 중…</p></div>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg" id="sf-recommend-btn">맞는 영양제 추천받기</button>
+          </div>
+          <div id="sf-rec-result" class="hidden mt-lg" aria-live="polite"></div>
+        </div>
+
+        <!-- 탭2: 궁합 -->
+        <div id="tab-combo" class="hidden">
+          <div class="tool-step">
+            <h2><span class="step-num">1</span>함께 먹는(먹을) 영양제를 <b>2개 이상</b> 골라주세요</h2>
+            <div class="choice-grid" id="sf-combo-choices"><p class="muted">불러오는 중…</p></div>
+          </div>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary btn-lg" id="sf-combo-btn">궁합 확인하기</button>
+          </div>
+          <div id="sf-combo-result" class="hidden mt-lg" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="../js/layout.js"></script>
+  <script src="../js/accessibility.js"></script>
+  <script src="../js/supplement-finder.js"></script>
+</body>
+</html>

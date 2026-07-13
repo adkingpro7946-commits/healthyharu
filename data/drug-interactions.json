@@ -1,0 +1,452 @@
+{
+  "drugs": [
+    {
+      "id": "warfarin",
+      "name": "항응고제 (와파린)",
+      "icon": "🩸"
+    },
+    {
+      "id": "bp",
+      "name": "혈압약",
+      "icon": "💓"
+    },
+    {
+      "id": "diabetes",
+      "name": "당뇨약",
+      "icon": "🍬"
+    },
+    {
+      "id": "statin",
+      "name": "고지혈증약 (스타틴)",
+      "icon": "🫀"
+    },
+    {
+      "id": "thyroid",
+      "name": "갑상선약 (레보티록신)",
+      "icon": "🦋"
+    },
+    {
+      "id": "antacid",
+      "name": "위장약 (제산제·위산억제)",
+      "icon": "💊"
+    },
+    {
+      "id": "diuretic",
+      "name": "이뇨제",
+      "icon": "💧"
+    },
+    {
+      "id": "aspirin",
+      "name": "아스피린(항혈소판)",
+      "icon": "🔴"
+    },
+    {
+      "id": "nsaid",
+      "name": "진통소염제 (NSAID)",
+      "icon": "💊"
+    },
+    {
+      "id": "sleeping-pill",
+      "name": "수면제·신경안정제",
+      "icon": "😴"
+    },
+    {
+      "id": "antidepressant",
+      "name": "우울증약 (SSRI 등)",
+      "icon": "🧠"
+    },
+    {
+      "id": "osteo-drug",
+      "name": "골다공증약 (비스포스포네이트)",
+      "icon": "🦴"
+    }
+  ],
+  "supplements": [
+    {
+      "id": "omega3",
+      "name": "오메가3"
+    },
+    {
+      "id": "vitamin-k",
+      "name": "비타민K / K2"
+    },
+    {
+      "id": "calcium",
+      "name": "칼슘"
+    },
+    {
+      "id": "iron",
+      "name": "철분"
+    },
+    {
+      "id": "magnesium",
+      "name": "마그네슘"
+    },
+    {
+      "id": "potassium",
+      "name": "칼륨"
+    },
+    {
+      "id": "coq10",
+      "name": "코엔자임Q10"
+    },
+    {
+      "id": "vitamin-d",
+      "name": "비타민D"
+    },
+    {
+      "id": "vitamin-c",
+      "name": "비타민C"
+    },
+    {
+      "id": "ginkgo",
+      "name": "은행잎 추출물"
+    },
+    {
+      "id": "glucosamine",
+      "name": "글루코사민"
+    },
+    {
+      "id": "probiotics",
+      "name": "유산균"
+    },
+    {
+      "id": "red-ginseng",
+      "name": "홍삼"
+    },
+    {
+      "id": "vitamin-e",
+      "name": "비타민E"
+    },
+    {
+      "id": "turmeric",
+      "name": "강황·커큐민"
+    },
+    {
+      "id": "saw-palmetto",
+      "name": "쏘팔메토"
+    },
+    {
+      "id": "folic-acid",
+      "name": "엽산"
+    },
+    {
+      "id": "vitamin-b",
+      "name": "비타민B군"
+    }
+  ],
+  "interactions": [
+    {
+      "drug": "warfarin",
+      "supplement": "omega3",
+      "level": "danger",
+      "reason": "혈액을 묽게 해 출혈 위험이 커질 수 있습니다. 반드시 의사와 상담하세요."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "vitamin-k",
+      "level": "danger",
+      "reason": "와파린의 약효를 직접 떨어뜨립니다. 임의 복용 금지."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "ginkgo",
+      "level": "danger",
+      "reason": "함께 먹으면 출혈 경향이 커질 수 있습니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "glucosamine",
+      "level": "warn",
+      "reason": "일부 보고에서 항응고 효과를 높일 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "coq10",
+      "level": "warn",
+      "reason": "와파린 효과에 영향을 줄 수 있어 정기적 응고 검사와 상담이 필요합니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "vitamin-c",
+      "level": "ok",
+      "reason": "일반 용량에서는 대체로 문제되지 않습니다."
+    },
+    {
+      "drug": "bp",
+      "supplement": "potassium",
+      "level": "danger",
+      "reason": "일부 혈압약(ACE억제제 등)과 함께면 혈중 칼륨이 과도하게 올라갈 수 있습니다."
+    },
+    {
+      "drug": "bp",
+      "supplement": "coq10",
+      "level": "warn",
+      "reason": "혈압을 추가로 낮출 수 있어 저혈압에 주의하세요."
+    },
+    {
+      "drug": "bp",
+      "supplement": "magnesium",
+      "level": "warn",
+      "reason": "혈압 강하가 겹칠 수 있으니 어지럼에 주의하세요."
+    },
+    {
+      "drug": "bp",
+      "supplement": "calcium",
+      "level": "ok",
+      "reason": "일반적으로 큰 문제는 없으나 용량이 많으면 상담하세요."
+    },
+    {
+      "drug": "bp",
+      "supplement": "omega3",
+      "level": "ok",
+      "reason": "오히려 혈압·혈관 건강에 도움이 될 수 있습니다."
+    },
+    {
+      "drug": "statin",
+      "supplement": "coq10",
+      "level": "ok",
+      "reason": "스타틴이 낮추는 코큐텐을 보충 — 근육통 완화에 도움될 수 있습니다."
+    },
+    {
+      "drug": "statin",
+      "supplement": "omega3",
+      "level": "ok",
+      "reason": "중성지방 관리에 함께 도움이 될 수 있습니다."
+    },
+    {
+      "drug": "statin",
+      "supplement": "vitamin-d",
+      "level": "ok",
+      "reason": "일반적으로 문제되지 않습니다."
+    },
+    {
+      "drug": "thyroid",
+      "supplement": "calcium",
+      "level": "warn",
+      "reason": "갑상선약 흡수를 방해합니다. 최소 4시간 이상 간격을 두세요."
+    },
+    {
+      "drug": "thyroid",
+      "supplement": "iron",
+      "level": "warn",
+      "reason": "흡수를 방해합니다. 4시간 이상 간격을 두고 복용하세요."
+    },
+    {
+      "drug": "thyroid",
+      "supplement": "magnesium",
+      "level": "warn",
+      "reason": "제산·미네랄 성분이 흡수를 낮출 수 있어 시간 간격 권장."
+    },
+    {
+      "drug": "antacid",
+      "supplement": "iron",
+      "level": "warn",
+      "reason": "위산이 줄면 철분 흡수가 떨어집니다. 시간 간격을 두세요."
+    },
+    {
+      "drug": "antacid",
+      "supplement": "calcium",
+      "level": "warn",
+      "reason": "일부 제산제와 칼슘이 겹치면 과다 섭취될 수 있습니다."
+    },
+    {
+      "drug": "antacid",
+      "supplement": "vitamin-b",
+      "level": "ok",
+      "reason": "대체로 문제되지 않으나 B12 흡수는 장기 복용 시 저하될 수 있습니다."
+    },
+    {
+      "drug": "diabetes",
+      "supplement": "magnesium",
+      "level": "ok",
+      "reason": "마그네슘은 혈당 관리에 도움이 될 수 있습니다(과다 주의)."
+    },
+    {
+      "drug": "diabetes",
+      "supplement": "glucosamine",
+      "level": "warn",
+      "reason": "혈당에 영향을 줄 수 있다는 보고가 있어 혈당 확인이 필요합니다."
+    },
+    {
+      "drug": "diabetes",
+      "supplement": "vitamin-d",
+      "level": "ok",
+      "reason": "일반적으로 문제되지 않습니다."
+    },
+    {
+      "drug": "diuretic",
+      "supplement": "potassium",
+      "level": "warn",
+      "reason": "이뇨제 종류에 따라 칼륨이 너무 낮거나 높아질 수 있어 상담 필요."
+    },
+    {
+      "drug": "diuretic",
+      "supplement": "magnesium",
+      "level": "warn",
+      "reason": "이뇨제가 마그네슘 배출을 늘릴 수 있어 상황에 따라 조정 필요."
+    },
+    {
+      "drug": "diuretic",
+      "supplement": "calcium",
+      "level": "warn",
+      "reason": "일부 이뇨제와 함께면 혈중 칼슘이 올라갈 수 있습니다."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "omega3",
+      "level": "warn",
+      "reason": "둘 다 혈액을 묽게 해 출혈 경향이 커질 수 있습니다."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "ginkgo",
+      "level": "warn",
+      "reason": "출혈 위험이 겹칠 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "vitamin-c",
+      "level": "ok",
+      "reason": "일반 용량에서는 대체로 문제되지 않습니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "vitamin-e",
+      "level": "warn",
+      "reason": "고용량에서 출혈 경향을 높일 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "turmeric",
+      "level": "warn",
+      "reason": "고용량 커큐민은 항응고 작용을 더해 출혈 위험을 높일 수 있습니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "와파린 효과(INR)에 영향을 준다는 보고가 있어 상담이 필요합니다."
+    },
+    {
+      "drug": "warfarin",
+      "supplement": "saw-palmetto",
+      "level": "warn",
+      "reason": "드물게 출혈 경향을 높일 수 있어 주의하세요."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "vitamin-e",
+      "level": "warn",
+      "reason": "둘 다 혈액을 묽게 해 출혈 경향이 겹칠 수 있습니다."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "turmeric",
+      "level": "warn",
+      "reason": "출혈 경향이 겹칠 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "aspirin",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "출혈 경향에 영향을 줄 수 있어 주의하세요."
+    },
+    {
+      "drug": "nsaid",
+      "supplement": "omega3",
+      "level": "warn",
+      "reason": "둘 다 혈액을 묽게 해 위장 출혈 위험이 커질 수 있습니다."
+    },
+    {
+      "drug": "nsaid",
+      "supplement": "ginkgo",
+      "level": "warn",
+      "reason": "출혈 경향이 겹칠 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "nsaid",
+      "supplement": "vitamin-e",
+      "level": "warn",
+      "reason": "출혈 경향이 겹칠 수 있습니다."
+    },
+    {
+      "drug": "nsaid",
+      "supplement": "potassium",
+      "level": "warn",
+      "reason": "신장 기능에 영향을 주어 혈중 칼륨이 오를 수 있습니다."
+    },
+    {
+      "drug": "bp",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "혈압에 영향을 줄 수 있다는 보고가 있어 상담이 필요합니다."
+    },
+    {
+      "drug": "diabetes",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "혈당에 영향을 줄 수 있어 혈당 확인이 필요합니다."
+    },
+    {
+      "drug": "antidepressant",
+      "supplement": "ginkgo",
+      "level": "warn",
+      "reason": "드물게 출혈·상호작용 가능성이 있어 상담하세요."
+    },
+    {
+      "drug": "antidepressant",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "신경계 자극이 겹칠 수 있어 주의가 필요합니다."
+    },
+    {
+      "drug": "antidepressant",
+      "supplement": "omega3",
+      "level": "ok",
+      "reason": "일반적으로 문제되지 않으며 오히려 도움이 될 수 있습니다."
+    },
+    {
+      "drug": "sleeping-pill",
+      "supplement": "magnesium",
+      "level": "warn",
+      "reason": "진정 작용이 겹쳐 낮 졸림·어지럼에 주의하세요."
+    },
+    {
+      "drug": "sleeping-pill",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "수면을 방해할 수 있어 저녁 섭취는 피하세요."
+    },
+    {
+      "drug": "osteo-drug",
+      "supplement": "calcium",
+      "level": "warn",
+      "reason": "골다공증약 흡수를 방해합니다. 약은 공복에, 칼슘은 시간 간격을 두세요."
+    },
+    {
+      "drug": "osteo-drug",
+      "supplement": "iron",
+      "level": "warn",
+      "reason": "흡수를 방해하므로 시간 간격을 두고 복용하세요."
+    },
+    {
+      "drug": "osteo-drug",
+      "supplement": "magnesium",
+      "level": "warn",
+      "reason": "미네랄이 흡수를 낮출 수 있어 시간 간격이 필요합니다."
+    },
+    {
+      "drug": "thyroid",
+      "supplement": "red-ginseng",
+      "level": "warn",
+      "reason": "갑상선 상태에 영향을 줄 수 있어 상담이 필요합니다."
+    },
+    {
+      "drug": "statin",
+      "supplement": "turmeric",
+      "level": "ok",
+      "reason": "일반적으로 큰 문제는 없으나 고용량은 상담하세요."
+    }
+  ]
+}

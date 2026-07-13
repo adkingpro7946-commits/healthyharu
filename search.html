@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>건강정보 검색 | 건강한 하루</title>
+  <meta name="description" content="건강한 하루의 200편이 넘는 건강정보 글과 도구를 키워드로 검색하세요.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>window.BASE = "";</script>
+</head>
+<body data-page="">
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="section">
+      <div class="container" style="max-width:900px;">
+        <h1 class="text-center">🔍 건강정보 검색</h1>
+
+        <form id="search-page-form" role="search" class="search-page-box">
+          <label for="search-page-input" class="sr-only">검색어</label>
+          <input type="search" id="search-page-input" name="q"
+            placeholder="예: 무릎 통증, 비타민D, 고혈압, 불면증" autocomplete="off" autofocus>
+          <button type="submit" class="btn btn-primary btn-lg">검색</button>
+        </form>
+
+        <p id="search-summary" class="text-center muted mb-lg" style="font-weight:700;"></p>
+        <div id="search-results" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/layout.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

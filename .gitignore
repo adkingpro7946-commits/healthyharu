@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+# build/tmp
+dist/
+.cache/
+*.log
+# os
+.DS_Store
+Thumbs.db
+# env / secrets — 절대 커밋 금지
+.env
+.env.*
+!.env.example
+# 자동 생성 산출물(초안)은 PR로만 관리
+content/drafts/
