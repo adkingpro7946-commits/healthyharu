@@ -1,0 +1,20 @@
+{
+  "title": "머리카락이 빠질 때",
+  "slug": "hair-loss",
+  "description": "머리카락이 부쩍 많이 빠지나요? 나이에 따른 탈모의 흔한 원인과 집에서 하는 관리법, 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "464de7d5b8c3dd06"
+}

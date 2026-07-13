@@ -1,0 +1,20 @@
+{
+  "title": "은행잎 추출물 제대로 알기",
+  "slug": "ginkgo",
+  "description": "손발이 저리고 기억이 깜빡깜빡한 시니어를 위한 은행잎 추출물 이야기. 혈액순환·기억력에 어떤 도움이 될 수 있는지, 그리고 와파린 등 항응고제 복용자·수술 예정자가 꼭 알아야 할 출혈 주의점을 쉽게 정리했습니다.",
+  "cluster": "supplements",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "db80c1cb45c6f52f"
+}

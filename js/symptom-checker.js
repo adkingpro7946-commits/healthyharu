@@ -104,12 +104,12 @@
       relatedLinks = '<div class="result-card result-info"><h3>🔗 더 알아보기</h3><ul>';
       if (sym.article) relatedLinks += '<li><a href="../' + sym.article + '">「' + sym.name + '」 자세한 정보 글 보기</a></li>';
       if (relSup.length) relatedLinks += '<li>관련 영양제: ' + relSup.join(", ") +
-        ' &nbsp;→ <a href="supplement-finder.html">영양제 추천·궁합 확인</a></li>';
+        ' &nbsp;→ <a href="supplement-finder.html">영양정보 탐색·궁합 확인</a></li>';
       relatedLinks += "</ul></div>";
     }
 
     var html =
-      '<h2 class="text-center mb-md">「' + sym.name + '」 자가진단 결과</h2>' +
+      '<h2 class="text-center mb-md">「' + sym.name + '」 증상 체크 결과</h2>' +
 
       '<div class="result-card result-info"><h3>🔎 관련 있을 수 있는 상태</h3><ul>' +
         sym.possibleConditions.map(function (c) { return "<li>" + c + "일 수 있습니다.</li>"; }).join("") +

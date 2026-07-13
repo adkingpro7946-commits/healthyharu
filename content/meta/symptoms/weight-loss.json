@@ -1,0 +1,20 @@
+{
+  "title": "갑작스런 체중 감소",
+  "slug": "weight-loss",
+  "description": "다이어트를 하지 않았는데 체중이 저절로 줄어든다면 왜 그럴까요? 흔한 원인과 집에서 살필 점, 그리고 꼭 병원에 가야 하는 이유를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "73aa5645bb7a4445"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "소변이 잦을 때",
+  "slug": "urination-frequency",
+  "description": "화장실을 자주 가고 밤에도 여러 번 깨시나요? 빈뇨의 흔한 원인과 집에서 하는 관리법, 그리고 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "e7e1e15364f5d76b"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "건강하게 걷기 운동",
+  "slug": "walking",
+  "description": "걷기는 시니어에게 가장 안전하고 좋은 운동입니다. 올바른 걷기 자세, 무릎을 보호하며 걷는 법, 무리하지 않는 시간·강도까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "20d4856c661d5e53"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "병원 잘 고르고 이용하는 법",
+  "slug": "choosing-hospital",
+  "description": "증상에 맞는 진료과 고르기, 진료 전 준비, 복용약 목록 지참, 2차 소견까지. 병원을 더 똑똑하게 고르고 이용하는 방법을 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "8a0ec8aa517144d5"
+}

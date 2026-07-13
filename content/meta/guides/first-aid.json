@@ -1,0 +1,20 @@
+{
+  "title": "가정 응급처치 기본",
+  "slug": "first-aid",
+  "description": "집에서 갑자기 다쳤을 때 어떻게 해야 할까요? 화상, 출혈, 삠, 질식 등 흔한 응급 상황의 기본 대처법과 119를 불러야 할 때를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "487d39503b9a6e00"
+}

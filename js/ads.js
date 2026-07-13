@@ -16,7 +16,15 @@
   var ADSENSE_CLIENT = ""; // ← 승인 후 "ca-pub-XXXXXXXXXXXXXXXX" 로 교체
 
   var slots = document.querySelectorAll(".ad-slot");
-  if (!ADSENSE_CLIENT || slots.length === 0) return; // 미설정: 자리표시 유지
+  if (slots.length === 0) return;
+
+  // 애드센스 미설정(운영 환경)에서는 빈 광고 자리표시를 렌더링하지 않는다.
+  // 로컬 미리보기에서 자리표시를 보고 싶으면 주소에 ?ads=preview 를 붙인다.
+  if (!ADSENSE_CLIENT) {
+    var preview = /[?&]ads=preview\b/.test(location.search);
+    if (!preview) slots.forEach(function (s) { s.style.display = "none"; });
+    return;
+  }
 
   // 1) 애드센스 로더 스크립트 1회 삽입
   if (!document.querySelector('script[data-adsense-loader]')) {

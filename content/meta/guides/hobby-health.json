@@ -1,0 +1,20 @@
+{
+  "title": "취미 생활과 건강",
+  "slug": "hobby-health",
+  "description": "취미는 시간을 보내는 일을 넘어 시니어의 몸과 마음을 지키는 보약입니다. 두뇌·손·마음 건강에 좋은 취미와 나에게 맞는 취미 고르는 법을 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "7bd076ce05cca888"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "균형 잡기가 어렵고 자꾸 휘청일 때",
+  "slug": "balance-problems",
+  "description": "걸을 때 자꾸 휘청이고 중심을 잡기 어렵나요? 균형 문제의 흔한 원인과 집에서 하는 낙상 예방 관리, 그리고 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "b5276dcbb57685a0"
+}

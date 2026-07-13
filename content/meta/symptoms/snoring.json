@@ -1,0 +1,20 @@
+{
+  "title": "코골이가 심할 때",
+  "slug": "snoring",
+  "description": "코를 심하게 골고 자다가 숨이 멎는다면? 코골이와 수면무호흡의 흔한 원인, 집에서 하는 관리법, 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "70bc64e943a54890"
+}

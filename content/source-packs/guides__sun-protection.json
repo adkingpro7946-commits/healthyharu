@@ -1,0 +1,31 @@
+{
+  "slug": "sun-protection",
+  "title": "자외선 차단과 피부 건강",
+  "category": "guides",
+  "riskLevel": "A",
+  "createdAt": "2026-07-13T14:09:35.605Z",
+  "entries": [
+    {
+      "sourceId": "KDCA-HEALTH",
+      "url": "https://health.kdca.go.kr/",
+      "note": "질병관리청 — 자외선 차단과 피부 건강 관련 항목 확인",
+      "excerpt": "",
+      "verified": false
+    },
+    {
+      "sourceId": "NHIS",
+      "url": "https://www.nhis.or.kr/",
+      "note": "국민건강보험공단 — 자외선 차단과 피부 건강 관련 항목 확인",
+      "excerpt": "",
+      "verified": false
+    },
+    {
+      "sourceId": "KDCA",
+      "url": "https://www.kdca.go.kr/",
+      "note": "질병관리청 — 자외선 차단과 피부 건강 관련 항목 확인",
+      "excerpt": "",
+      "verified": false
+    }
+  ],
+  "instructions": "초안은 이 Source Pack 의 출처만 근거로 작성한다. 모든 의료 수치·위험·효능·부작용·복용량·상호작용·응급기준·검사수치 주장에는 이 중 하나의 sourceId 를 claim 으로 붙인다. excerpt/verified 는 검토자가 원문 확인 후 채운다."
+}

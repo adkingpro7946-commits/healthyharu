@@ -11,5 +11,4 @@ Thumbs.db
 .env
 .env.*
 !.env.example
-# 자동 생성 산출물(초안)은 PR로만 관리
-content/drafts/
+# 초안(content/drafts/*.json)은 일일 PR 브랜치에 커밋되어 검토된다 → ignore 하지 않음

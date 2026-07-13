@@ -423,7 +423,7 @@ main { display: block; }
   padding: var(--space-xl) 0 var(--space-lg);
 }
 .site-footer a { color: #e8eef5; }
-.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: var(--space-lg); }
+.footer-grid { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: var(--space-lg); }
 .site-footer h4 { color: #fff; font-size: 1.05em; margin-bottom: 12px; }
 .footer-links { list-style: none; padding: 0; margin: 0; }
 .footer-links li { margin-bottom: 10px; }

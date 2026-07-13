@@ -1,0 +1,20 @@
+{
+  "title": "콧물·코막힘이 계속될 때(비염)",
+  "slug": "runny-nose",
+  "description": "맑은 콧물과 답답한 코막힘, 왜 계속될까요? 감기·알레르기 비염 등 흔한 원인과 집에서 하는 관리법, 그리고 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "f6821300e6c04cbc"
+}

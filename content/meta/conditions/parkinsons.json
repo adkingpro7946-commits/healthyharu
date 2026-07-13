@@ -1,0 +1,20 @@
+{
+  "title": "파킨슨병, 손 떨림이 시작될 때",
+  "slug": "parkinsons",
+  "description": "손이 가만히 있을 때 떨리고, 동작이 느려지고, 걸음이 종종거려지시나요? 파킨슨병의 뜻부터 안전한 생활관리, 낙상 예방, 병원이 필요한 신호까지 50~70대 눈높이로 쉽게 정리했습니다. 파킨슨병 약은 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "371040c760fba464"
+}

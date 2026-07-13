@@ -1,0 +1,77 @@
+{
+  "_comment": "의료 주장에 인용 가능한 공식 출처 레지스트리. 여기 없는 source ID를 claims에서 참조하면 lint-medical-claims가 빌드를 실패시킨다. 신규 출처는 검토 후 추가한다.",
+  "sources": [
+    {
+      "id": "KDCA-HEALTH",
+      "title": "국가건강정보포털",
+      "publisher": "질병관리청",
+      "url": "https://health.kdca.go.kr/",
+      "type": "government",
+      "language": "ko"
+    },
+    {
+      "id": "KDCA",
+      "title": "질병관리청",
+      "publisher": "질병관리청",
+      "url": "https://www.kdca.go.kr/",
+      "type": "government",
+      "language": "ko"
+    },
+    {
+      "id": "MFDS",
+      "title": "식품의약품안전처",
+      "publisher": "식품의약품안전처",
+      "url": "https://www.mfds.go.kr/",
+      "type": "government",
+      "language": "ko"
+    },
+    {
+      "id": "MFDS-DRUGSAFE",
+      "title": "의약품안전나라",
+      "publisher": "식품의약품안전처",
+      "url": "https://nedrug.mfds.go.kr/",
+      "type": "government",
+      "language": "ko"
+    },
+    {
+      "id": "KMA",
+      "title": "대한의사협회",
+      "publisher": "대한의사협회",
+      "url": "https://www.kma.org/",
+      "type": "society",
+      "language": "ko"
+    },
+    {
+      "id": "NHIS",
+      "title": "국민건강보험공단 건강iN",
+      "publisher": "국민건강보험공단",
+      "url": "https://www.nhis.or.kr/",
+      "type": "government",
+      "language": "ko"
+    },
+    {
+      "id": "AMC-ENCY",
+      "title": "서울아산병원 질환백과",
+      "publisher": "서울아산병원",
+      "url": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseList.do",
+      "type": "hospital",
+      "language": "ko"
+    },
+    {
+      "id": "SNUH-ENCY",
+      "title": "서울대학교병원 의학정보(N의학정보)",
+      "publisher": "서울대학교병원",
+      "url": "https://www.snuh.org/",
+      "type": "hospital",
+      "language": "ko"
+    },
+    {
+      "id": "WHO",
+      "title": "World Health Organization",
+      "publisher": "WHO",
+      "url": "https://www.who.int/",
+      "type": "international",
+      "language": "en"
+    }
+  ]
+}

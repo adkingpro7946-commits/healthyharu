@@ -1,0 +1,20 @@
+{
+  "title": "매일 스트레칭",
+  "slug": "stretching",
+  "description": "아침마다 몸이 뻣뻣하고 여기저기 결리신다면, 하루 몇 분의 스트레칭이 큰 도움이 됩니다. 목·어깨·허리·다리를 안전하게 풀어 주는 방법을 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "63195acbd73dbb11"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "감기·독감 예방하는 생활 습관",
+  "slug": "cold-prevention",
+  "description": "환절기와 겨울, 감기·독감이 걱정되는 계절. 손 씻기, 환기, 예방접종 등 일상에서 실천하는 예방법을 50~70대와 가족을 위해 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "3e2a669e37b98cf9"
+}

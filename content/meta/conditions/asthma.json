@@ -1,0 +1,20 @@
+{
+  "title": "천식, 숨이 답답할 때",
+  "slug": "asthma",
+  "description": "쌕쌕거리는 숨소리, 밤에 심해지는 기침이 걱정이신가요? 천식의 뜻부터 집에서 하는 생활관리, 흡입기 사용 시 주의점, 병원이 필요한 위험 신호까지 50~70대 눈높이로 쉽게 정리했습니다. 흡입기는 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "e01b45ed3e90a571"
+}

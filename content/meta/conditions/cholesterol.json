@@ -1,0 +1,20 @@
+{
+  "title": "콜레스테롤 낮추기",
+  "slug": "cholesterol",
+  "description": "콜레스테롤이 높다고 하셨나요? 나쁜 콜레스테롤 LDL과 좋은 콜레스테롤 HDL의 뜻부터 혈관에 좋은 식사, 운동, 스타틴 복용자가 주의할 점까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "3a9d4b0498a8ab1b"
+}

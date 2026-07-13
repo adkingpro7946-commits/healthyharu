@@ -1,0 +1,20 @@
+{
+  "title": "시니어 균형 잡힌 식사",
+  "slug": "balanced-diet",
+  "description": "나이 들수록 잘 먹는 것이 보약입니다. 단백질·채소·수분까지, 50~70대가 매 끼니 쉽게 챙길 수 있는 균형 잡힌 식사법과 식단 체크리스트를 따뜻하게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "ec1bceb936e5cdeb"
+}

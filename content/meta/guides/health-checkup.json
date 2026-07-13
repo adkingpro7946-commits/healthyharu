@@ -1,0 +1,20 @@
+{
+  "title": "나이별로 꼭 챙기는 건강검진",
+  "slug": "health-checkup",
+  "description": "건강검진, 그냥 받기만 하면 될까요? 50·60·70대에 꼭 챙겨야 할 검사와 국가건강검진·암검진 항목을 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "f326ca94f185e6ff"
+}

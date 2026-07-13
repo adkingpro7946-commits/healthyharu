@@ -1,0 +1,20 @@
+{
+  "title": "손이 떨릴 때",
+  "slug": "hand-tremor",
+  "description": "글씨 쓸 때, 물잔을 들 때 손이 떨린다면 왜 그럴까요? 본태성 떨림, 파킨슨병 등 흔한 원인과 집에서 하는 관리법, 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "82e743c77bab65c3"
+}

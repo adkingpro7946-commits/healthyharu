@@ -1,0 +1,20 @@
+{
+  "title": "혈당 관리 식단",
+  "slug": "blood-sugar-diet",
+  "description": "당뇨나 당뇨 전 단계로 혈당이 걱정되신다면, 무엇을 어떤 순서로 먹느냐가 큰 차이를 만듭니다. 밥·반찬 고르는 법부터 먹는 순서, 간식까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "a85fdc9bf5a5baed"
+}

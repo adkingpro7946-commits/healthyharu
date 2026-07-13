@@ -1,0 +1,20 @@
+{
+  "title": "발목이 아프고 삐끗할 때",
+  "slug": "ankle-pain",
+  "description": "발목을 삐끗하거나 관절이 시큰거릴 때, 왜 그럴까요? 발목 염좌·관절염 등 흔한 원인과 집에서 하는 관리법, 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "6f318cebb877fbd6"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "노인성 난청, 잘 안 들릴 때",
+  "slug": "hearing-loss",
+  "description": "나이가 들며 귀가 잘 안 들리는 노인성 난청, 왜 생길까요? 흔한 증상과 집에서 하는 귀 건강 관리법, 보청기와 병원 진료가 필요한 신호까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "0d331195d9624ac7"
+}

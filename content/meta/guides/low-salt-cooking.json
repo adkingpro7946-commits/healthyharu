@@ -1,0 +1,20 @@
+{
+  "title": "저염 요리법",
+  "slug": "low-salt-cooking",
+  "description": "소금을 줄이면 맛이 없다고요? 감칠맛과 향으로 싱겁지 않게 저염 요리 하는 법, 국·찌개·반찬 실천 요령을 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "8d67f3c4a2887aa3"
+}

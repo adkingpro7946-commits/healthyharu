@@ -1,0 +1,20 @@
+{
+  "title": "고혈압, 식단으로 관리하기",
+  "slug": "hypertension",
+  "description": "혈압이 높다고 걱정이신가요? 수축기·이완기 혈압의 뜻부터 나트륨을 줄이는 저염 밥상, 칼륨이 풍부한 음식, 피해야 할 짠 반찬까지 50~70대 눈높이로 쉽게 정리했습니다. 혈압약은 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "47d248e719583d6b"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "healthyharu",
+  "version": "1.0.0",
+  "description": "건강한 하루 — 시니어 건강정보 사이트. 정적 사이트 + 콘텐츠 운영 자동화(초안→검토 PR).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pick-topic": "node scripts/pick-topic.ts",
+    "build-source-pack": "node scripts/build-source-pack.ts",
+    "generate-draft": "node scripts/generate-draft.ts",
+    "lint:claims": "node scripts/lint-medical-claims.ts",
+    "verify:citations": "node scripts/verify-citations.ts",
+    "detect:duplicate": "node scripts/detect-duplicate.ts",
+    "notify:review": "node scripts/send-review-notification.ts",
+    "gen:meta": "node scripts/gen-content-meta.ts",
+    "gen:rss": "node scripts/gen-rss.ts",
+    "verify:sd": "node scripts/verify-structured-data.ts",
+    "daily": "node scripts/run-daily.ts",
+    "check": "npm run lint:claims && npm run verify:citations && npm run verify:sd",
+    "serve": "python -m http.server 5500"
+  },
+  "comment": "Node 22.18+/24 는 .ts 를 네이티브 실행(type stripping). 별도 빌드/의존성 불필요.",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.2"
+  }
+}
