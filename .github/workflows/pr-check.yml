@@ -1,0 +1,26 @@
+name: PR 검사 (의료 린터 · 인용 · 구조화데이터)
+
+# PR 이 열리거나 갱신될 때마다 안전 검사를 돌린다.
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: 의료 주장 린터 (lint-medical-claims)
+        run: node scripts/lint-medical-claims.ts
+
+      - name: 인용 검증 (verify-citations)
+        run: node scripts/verify-citations.ts
+
+      - name: 구조화 데이터 검증 (verify-structured-data)
+        run: node scripts/verify-structured-data.ts
