@@ -1,0 +1,79 @@
+name: 일일 콘텐츠 초안 (검토 PR)
+
+# 매일 한국시간 05:30 (= UTC 20:30 전날) 실행. 수동 실행도 가능.
+on:
+  schedule:
+    - cron: "30 20 * * *"
+  workflow_dispatch:
+
+# 초안 커밋 + PR 생성을 위해 쓰기 권한 필요
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: 의존성 설치
+        run: npm install
+
+      - name: 파이프라인 실행(주제→중복검사→소스팩→초안→린트/검증)
+        id: daily
+        env:
+          # 실제 초안 생성을 켤 때 사용(현재 STUB이라 없어도 됨)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set +e
+          npm run daily
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          # 3 = 오늘 만들 주제 없음(정상 종료), 0 = 초안 생성됨, 그 외 = 검사 실패
+          if [ "$code" = "3" ]; then exit 0; fi
+          exit $code
+
+      - name: 요약 읽기
+        id: summary
+        if: steps.daily.outputs.exit_code == '0'
+        run: |
+          echo 'body<<EOF' >> "$GITHUB_OUTPUT"
+          cat content/drafts/_last-summary.json >> "$GITHUB_OUTPUT"
+          echo '' >> "$GITHUB_OUTPUT"
+          echo 'EOF' >> "$GITHUB_OUTPUT"
+          risk=$(node -e "console.log(require('./content/drafts/_last-summary.json').riskLevel)")
+          echo "risk=$risk" >> "$GITHUB_OUTPUT"
+
+      - name: 검토 PR 생성
+        if: steps.daily.outputs.exit_code == '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: content/daily-draft
+          title: "🩺 일일 건강정보 초안 (검토 필요, riskLevel ${{ steps.summary.outputs.risk }})"
+          commit-message: "content: 일일 초안 생성 (자동, 검토 전)"
+          labels: |
+            content-draft
+            needs-review
+            risk-${{ steps.summary.outputs.risk }}
+          body: |
+            자동 생성된 **검토 전 초안**입니다. 이 PR은 자동 발행이 아니며, 사람이 검토·수정 후 병합해야 발행됩니다.
+
+            - riskLevel **B·C 는 자동 발행 금지**, **C 는 의료전문가 검수 완료 전 병합 금지**입니다.
+            - 병합 전 체크: 모든 의료 주장에 출처(claim.source) 부여, 위험 신호 정확성, 응급 안내, 면책, 광고가 위험 신호 앞에 없는지.
+
+            ```json
+            ${{ steps.summary.outputs.body }}
+            ```
+
+      - name: 검토 요청 알림
+        if: steps.daily.outputs.exit_code == '0'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          REVIEW_EMAIL_TO: ${{ secrets.REVIEW_EMAIL_TO }}
+        run: npm run notify:review -- "새 건강정보 초안이 검토를 기다립니다. GitHub PR을 확인하세요."

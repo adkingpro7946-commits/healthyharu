@@ -5,6 +5,7 @@
   <url><loc>https://healthyharu.co.kr/tools/supplement-finder.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://healthyharu.co.kr/tools/symptom-checker.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://healthyharu.co.kr/about.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://healthyharu.co.kr/authors.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/conditions/anemia.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/conditions/anxiety.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/conditions/arthritis.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -53,7 +54,9 @@
   <url><loc>https://healthyharu.co.kr/conditions/varicose-veins.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/conditions/vertigo-bppv.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/contact.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://healthyharu.co.kr/corrections.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://healthyharu.co.kr/editorial-policy.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/guides/anti-inflammatory-diet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/guides/balance-exercise.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/guides/balanced-diet.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -100,7 +103,10 @@
   <url><loc>https://healthyharu.co.kr/guides/walking.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/guides/water-exercise.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/guides/weight-management.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://healthyharu.co.kr/medical-review-policy.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://healthyharu.co.kr/privacy-health-tools.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://healthyharu.co.kr/source-policy.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/supplements/arginine.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/supplements/astaxanthin.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://healthyharu.co.kr/supplements/beta-glucan.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>

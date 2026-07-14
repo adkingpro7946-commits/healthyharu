@@ -1,0 +1,20 @@
+{
+  "title": "통풍, 요산 낮추고 발작 다스리기",
+  "slug": "gout",
+  "description": "엄지발가락이 갑자기 벌겋게 붓고 극심하게 아프신가요? 통풍의 원인인 요산의 뜻과 식이 관리, 급성 발작 때 대처법을 50~70대 눈높이로 쉽게 정리했습니다. 처방약은 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "3b3bb6d9a3132860"
+}

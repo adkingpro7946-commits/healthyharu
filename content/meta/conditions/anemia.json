@@ -1,0 +1,20 @@
+{
+  "title": "빈혈, 원인과 식이로 관리하기",
+  "slug": "anemia",
+  "description": "자꾸 어지럽고 쉽게 지치고 얼굴이 창백하신가요? 빈혈의 뜻과 철결핍·비타민B12 부족 같은 흔한 원인, 철분이 풍부한 식사법을 50~70대 눈높이로 쉽게 정리했습니다. 원인을 찾는 검사가 먼저입니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "b16e4a2e5fa4def2"
+}

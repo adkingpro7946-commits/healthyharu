@@ -1,0 +1,20 @@
+{
+  "title": "시니어 여행 건강",
+  "slug": "travel-health",
+  "description": "여행은 몸과 마음의 보약입니다. 하지만 나이가 들면 미리 챙길 것이 많습니다. 약·상비약 준비, 이동 중 건강관리, 시차·기후 대비까지 시니어 여행을 위한 건강 준비를 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "d9a3db524a05f51c"
+}

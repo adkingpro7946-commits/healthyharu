@@ -1,0 +1,20 @@
+{
+  "title": "입맛이 없을 때",
+  "slug": "appetite-loss",
+  "description": "요즘 통 입맛이 없으신가요? 노화·약물·우울감 등 흔한 원인과 조금씩 잘 챙겨 먹는 관리법, 그리고 꼭 병원에 가야 하는 위험 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "2b0c99db51660b4f"
+}

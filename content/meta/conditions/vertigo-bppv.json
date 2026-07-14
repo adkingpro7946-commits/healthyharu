@@ -1,0 +1,20 @@
+{
+  "title": "어지럼증 — 이석증(BPPV) 바로 알기",
+  "slug": "vertigo-bppv",
+  "description": "자고 일어나거나 고개를 돌릴 때 갑자기 세상이 빙빙 도나요? 흔한 원인인 이석증(BPPV)의 뜻과 집에서 하는 관리법, 그리고 꼭 병원에 가야 하는 위험 신호를 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "e8c81d5c7abba981"
+}

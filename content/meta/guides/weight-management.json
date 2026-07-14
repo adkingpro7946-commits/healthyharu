@@ -1,0 +1,20 @@
+{
+  "title": "건강한 체중 관리",
+  "slug": "weight-management",
+  "description": "시니어의 체중 관리는 무조건 빼는 것이 답이 아닙니다. 근육은 지키고 뱃살은 줄이는 방법, 갑작스러운 체중 변화가 보내는 신호까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "714b586d2fbf8d8a"
+}

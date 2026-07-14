@@ -1,0 +1,20 @@
+{
+  "title": "만성 위염, 식사와 생활로 다스리기",
+  "slug": "chronic-gastritis",
+  "description": "자주 속이 쓰리고 더부룩하신가요? 위 점막에 오래 염증이 이어지는 만성 위염의 뜻과 위에 편한 식사법, 피하면 좋은 음식, 그리고 꼭 병원에 가야 하는 위험 신호를 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "62d19e47b7aa3bc9"
+}

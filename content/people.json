@@ -1,0 +1,13 @@
+{
+  "_comment": "작성자·검수자 허용목록. 실존 인물/자격만 등재한다. 여기 없는 author/reviewer를 쓰면 lint가 빌드를 실패시킨다(허위 작성자/검수자 방지). 현재 의료전문가 검수자는 없으므로 reviewers는 비어 있다.",
+  "authors": [
+    {
+      "id": "editorial-team",
+      "name": "건강한 하루 편집팀",
+      "url": "/authors.html",
+      "credentials": "공공기관·학회 자료 기반 작성·편집(AI 보조). 개별 의료 자격을 표방하지 않음.",
+      "isMedicalProfessional": false
+    }
+  ],
+  "reviewers": []
+}

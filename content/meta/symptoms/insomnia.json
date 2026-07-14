@@ -1,0 +1,20 @@
+{
+  "title": "밤에 잠이 안 올 때",
+  "slug": "insomnia",
+  "description": "나이가 들며 잠들기 힘들고 자주 깨시나요? 불면증·수면장애의 흔한 원인과 집에서 하는 수면 관리법, 그리고 꼭 병원에 가야 하는 위험 신호를 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "4c4e52a2389a4b3f"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "스트레스 관리",
+  "slug": "stress-management",
+  "description": "나이가 들수록 쌓이는 스트레스, 몸과 마음을 함께 갉아먹습니다. 호흡·운동·수면·관계 등 시니어가 집에서 쉽게 실천할 수 있는 스트레스 다스리기 방법을 눈높이에 맞춰 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "a8f52baa278706b5"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "갑상선기능저하증, 쉽게 이해하기",
+  "slug": "thyroid",
+  "description": "자꾸 피곤하고, 춥고, 몸이 붓고 체중이 느신가요? 갑상선기능저하증의 뜻과 흔한 증상, 갑상선호르몬제를 규칙적으로 먹는 법, 병원이 필요한 신호를 50~70대 눈높이로 쉽게 정리했습니다. 약은 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "634f82eac29cedfd"
+}

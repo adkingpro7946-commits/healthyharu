@@ -1,0 +1,20 @@
+{
+  "title": "발 관리",
+  "slug": "foot-care",
+  "description": "발은 나이 들수록 더 세심히 살펴야 하는 곳입니다. 매일 발 살피기, 올바른 발톱·굳은살 관리, 특히 당뇨가 있는 분을 위한 당뇨발 예방법을 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "beba9f6f84ab51e2"
+}

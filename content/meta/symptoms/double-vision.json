@@ -1,0 +1,20 @@
+{
+  "title": "물체가 겹쳐 보일 때",
+  "slug": "double-vision",
+  "description": "사물이 둘로 겹쳐 보이나요? 복시(겹쳐 보임)의 흔한 원인과 집에서 살펴볼 점, 그리고 뇌졸중을 알리는 응급 신호를 시니어 눈높이로 쉽게 정리했습니다.",
+  "cluster": "symptoms",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "462198619897b2b5"
+}

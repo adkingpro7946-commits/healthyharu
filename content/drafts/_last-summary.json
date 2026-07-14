@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-13T14:09:35.605Z",
+  "topic": {
+    "slug": "sun-protection",
+    "title": "자외선 차단과 피부 건강",
+    "category": "guides",
+    "cluster": "guides",
+    "riskLevel": "A",
+    "priority": 80,
+    "status": "queued",
+    "intent": "informational"
+  },
+  "draft": "content/drafts/guides__sun-protection.json",
+  "sourcePack": "content/source-packs/guides__sun-protection.json",
+  "riskLevel": "A",
+  "qualityScore": 100,
+  "autoPublishable": false,
+  "requiresMedicalReview": false,
+  "checks": {
+    "lint": "pass",
+    "citations": "pass"
+  },
+  "note": "이 초안은 발행되지 않았습니다. PR 검토 후 병합해야 발행됩니다."
+}

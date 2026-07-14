@@ -1,0 +1,20 @@
+{
+  "title": "지방간, 생활습관으로 되돌리기",
+  "slug": "fatty-liver",
+  "description": "건강검진에서 지방간이라는 말을 들으셨나요? 지방간의 뜻과 원인, 간에 쌓인 지방을 줄이는 식단과 운동, 절주 방법, 그리고 병원 진료가 필요한 신호를 50~70대 눈높이로 쉽게 정리했습니다. 처방약은 임의로 끊지 마세요.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "0c7d5dac29a7d6e8"
+}

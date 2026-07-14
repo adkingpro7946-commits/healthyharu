@@ -1,0 +1,20 @@
+{
+  "title": "부모님 건강 돌보기",
+  "slug": "caregiver",
+  "description": "멀리 사는 부모님, 무엇부터 챙겨 드려야 할까요? 약 챙기기, 정기검진, 집안 안전, 마음 살피기까지 자녀가 알아 두면 좋은 부모님 건강 돌봄을 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "6335ee49f282fc9d"
+}

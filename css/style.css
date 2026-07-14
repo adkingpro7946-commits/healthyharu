@@ -423,7 +423,7 @@ main { display: block; }
   padding: var(--space-xl) 0 var(--space-lg);
 }
 .site-footer a { color: #e8eef5; }
-.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: var(--space-lg); }
+.footer-grid { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: var(--space-lg); }
 .site-footer h4 { color: #fff; font-size: 1.05em; margin-bottom: 12px; }
 .footer-links { list-style: none; padding: 0; margin: 0; }
 .footer-links li { margin-bottom: 10px; }
@@ -500,6 +500,13 @@ main { display: block; }
   .search-bar form, .search-page-box { flex-direction: column; align-items: stretch; }
   .search-bar .btn, .search-page-box .btn { width: 100%; }
 }
+
+/* ---------- 쿠팡 파트너스 배너 ---------- */
+.coupang-block { margin: var(--space-xl) 0 var(--space-md); text-align: center; }
+.coupang-slot { display: flex; justify-content: center; align-items: center; min-height: 100px; }
+.coupang-slot iframe { max-width: 100%; }
+.coupang-note { font-size: 0.82em; color: var(--color-text-soft); margin: 8px 0 0; }
+html.high-contrast .coupang-note { color: var(--color-text); }
 
 /* ---------- 디자인 보강 ---------- */
 /* 히어로 은은한 장식 */

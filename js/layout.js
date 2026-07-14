@@ -77,24 +77,35 @@
         '<div class="footer-grid">' +
           '<div class="footer-brand">' +
             '<h4>건강한 하루</h4>' +
-            '<p>50대 이상을 위한 크고 읽기 쉬운 건강정보와 자가진단 도구. ' +
+            '<p>50대 이상을 위한 크고 읽기 쉬운 건강정보와 건강 도구. ' +
             '공신력 있는 공공기관 자료를 바탕으로 쉽게 풀어 전합니다.</p>' +
           '</div>' +
           '<div>' +
             '<h4>바로가기</h4>' +
             '<ul class="footer-links">' +
-              '<li><a href="' + u("tools/symptom-checker.html") + '">증상 자가진단</a></li>' +
-              '<li><a href="' + u("tools/supplement-finder.html") + '">영양제 추천·궁합</a></li>' +
+              '<li><a href="' + u("tools/symptom-checker.html") + '">증상 체크·진료 안내</a></li>' +
+              '<li><a href="' + u("tools/supplement-finder.html") + '">영양정보 탐색·궁합</a></li>' +
               '<li><a href="' + u("tools/drug-interaction.html") + '">약·영양제 상호작용</a></li>' +
               '<li><a href="' + u("symptoms/index.html") + '">증상정보</a></li>' +
             '</ul>' +
           '</div>' +
           '<div>' +
-            '<h4>사이트 정보</h4>' +
+            '<h4>운영·신뢰</h4>' +
             '<ul class="footer-links">' +
               '<li><a href="' + u("about.html") + '">사이트 소개</a></li>' +
+              '<li><a href="' + u("authors.html") + '">작성·운영 주체</a></li>' +
+              '<li><a href="' + u("editorial-policy.html") + '">편집 원칙</a></li>' +
+              '<li><a href="' + u("source-policy.html") + '">출처 정책</a></li>' +
+              '<li><a href="' + u("medical-review-policy.html") + '">의료 검수 정책</a></li>' +
+              '<li><a href="' + u("corrections.html") + '">정정 안내</a></li>' +
+            '</ul>' +
+          '</div>' +
+          '<div>' +
+            '<h4>정책·문의</h4>' +
+            '<ul class="footer-links">' +
               '<li><a href="' + u("contact.html") + '">문의하기</a></li>' +
               '<li><a href="' + u("privacy.html") + '">개인정보처리방침</a></li>' +
+              '<li><a href="' + u("privacy-health-tools.html") + '">건강 도구 개인정보</a></li>' +
               '<li><a href="' + u("terms.html") + '">이용약관</a></li>' +
               '<li><a href="' + u("disclaimer.html") + '">의료정보 면책조항</a></li>' +
             '</ul>' +
@@ -129,6 +140,29 @@
     adsScript.src = u("js/ads.js");
     adsScript.setAttribute("data-ads-module", "1");
     document.body.appendChild(adsScript);
+  }
+
+  // 쿠팡 파트너스 배너 — 글 페이지 하단에만(도구·홈·법적/신뢰 페이지 제외).
+  // 응급 위험 신호 옆이 아니라 본문 맨 끝(관련 글 아래)에 배치한다.
+  var COUPANG_PAGES = ["home", "symptoms", "supplements", "conditions", "guides"];
+  if (COUPANG_PAGES.indexOf(page) >= 0) {
+    var mainEl = document.querySelector("main");
+    if (mainEl && !document.querySelector(".coupang-block")) {
+      var box = document.createElement("div");
+      box.className = "coupang-block";
+      box.innerHTML =
+        '<div class="container">' +
+          '<div class="coupang-slot" role="complementary" aria-label="쿠팡 파트너스 추천 상품(광고)"></div>' +
+          '<p class="coupang-note">이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따라 일정액의 수수료를 제공받습니다.</p>' +
+        '</div>';
+      mainEl.appendChild(box);
+    }
+    if (!document.querySelector('script[data-coupang]')) {
+      var cs = document.createElement("script");
+      cs.src = u("js/coupang.js");
+      cs.setAttribute("data-coupang", "1");
+      document.body.appendChild(cs);
+    }
   }
 
   // 접근성 스크립트가 헤더 주입 후 버튼을 찾도록 이벤트 발행

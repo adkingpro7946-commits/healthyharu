@@ -1,0 +1,20 @@
+{
+  "title": "골다공증 예방·관리",
+  "slug": "osteoporosis",
+  "description": "뼈가 약해지는 골다공증, 어떻게 관리할까요? 칼슘과 비타민D가 풍부한 음식, 뼈를 튼튼하게 하는 운동, 집에서 하는 낙상 예방, 골밀도 검사까지 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "conditions",
+  "intent": "informational",
+  "riskLevel": "B",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "e756ba8866fc26e3"
+}

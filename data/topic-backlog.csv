@@ -1,0 +1,7 @@
+slug,title,category,cluster,riskLevel,priority,status,intent
+sun-protection,자외선 차단과 피부 건강,guides,guides,A,80,queued,informational
+screen-eye-rest,화면 볼 때 눈 쉬는 법,guides,guides,A,70,queued,informational
+thyroid-nodule,갑상선 결절 알아보기,conditions,conditions,B,60,queued,informational
+sleep-position,건강한 수면 자세,guides,guides,A,55,queued,informational
+foot-odor,발 냄새 관리,guides,guides,A,50,queued,informational
+warfarin-diet,와파린 복용 중 식사 주의,conditions,conditions,C,40,queued,informational

@@ -1,0 +1,20 @@
+{
+  "title": "약 올바르게 복용하기",
+  "slug": "medication-safety",
+  "description": "약을 제때, 정확히 챙겨 먹는 것만으로 건강이 달라집니다. 복약을 놓치지 않는 방법, 여러 약을 안전하게 관리하는 법, 부작용과 약물 상호작용 주의점을 50~70대 눈높이로 쉽게 정리했습니다.",
+  "cluster": "guides",
+  "intent": "informational",
+  "riskLevel": "A",
+  "datePublished": "2026-07-12",
+  "dateModified": "2026-07-12",
+  "reviewedAt": "",
+  "reviewDue": "2027-07-12",
+  "author": "editorial-team",
+  "reviewer": "",
+  "reviewStatus": "의료검수대기",
+  "sources": [],
+  "claims": [],
+  "aiAssisted": true,
+  "contentStatus": "published",
+  "bodyHash": "a7ea16d856e7e227"
+}
