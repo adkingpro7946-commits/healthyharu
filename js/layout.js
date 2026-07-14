@@ -15,6 +15,7 @@
   /* ---------- 헤더 ---------- */
   var nav = [
     { key: "home",        label: "홈",          href: "index.html" },
+    { key: "columns",     label: "건강 칼럼",    href: "columns/index.html" },
     { key: "symptoms",    label: "증상정보",     href: "symptoms/index.html" },
     { key: "supplements", label: "영양제백과",   href: "supplements/index.html" },
     { key: "tools",       label: "건강도구",     href: "tools/symptom-checker.html" },
@@ -144,7 +145,7 @@
 
   // 쿠팡 파트너스 배너 — 글 페이지 하단에만(도구·홈·법적/신뢰 페이지 제외).
   // 응급 위험 신호 옆이 아니라 본문 맨 끝(관련 글 아래)에 배치한다.
-  var COUPANG_PAGES = ["home", "symptoms", "supplements", "conditions", "guides"];
+  var COUPANG_PAGES = ["home", "columns", "symptoms", "supplements", "conditions", "guides"];
   if (COUPANG_PAGES.indexOf(page) >= 0) {
     var mainEl = document.querySelector("main");
     if (mainEl && !document.querySelector(".coupang-block")) {
