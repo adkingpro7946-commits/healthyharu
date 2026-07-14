@@ -5,7 +5,8 @@
 import os, shutil
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-DIST = r"C:\Users\USER\Desktop\healthyharu-dist"
+# 배포용 폴더는 저장소 안 ./dist (로컬·CI 공통, 포터블)
+DIST = os.path.join(ROOT, "dist")
 
 # 복사할 폴더(정적 자산)
 COPY_DIRS = ["css", "js", "assets", "data", "symptoms", "supplements", "conditions", "guides", "tools", "columns"]

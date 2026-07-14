@@ -1,0 +1,8 @@
+# Cloudflare 정적 자산 배포 설정 (falling-breeze-8383 Worker)
+# 배포: python build_dist.py && npx wrangler deploy
+name = "falling-breeze-8383"
+account_id = "3bf1eacb39bd7a532777598489ee2829"
+compatibility_date = "2025-06-01"
+
+[assets]
+directory = "./dist"

@@ -1,0 +1,22 @@
+# 자동 건강 칼럼 주제 풀 (A등급: 생활·웰빙만). 형식: slug | 제목 | 태그
+# 특정 약물 용량·진단·응급 판단은 칼럼 주제로 쓰지 않는다(안전).
+morning-routine | 아침을 여는 시니어 건강 루틴 | 생활습관
+good-sleep-habits | 나이 들수록 잘 자는 법 | 수면
+walking-everyday | 매일 걷기, 무릎을 지키며 오래 걷는 법 | 운동
+protein-for-seniors | 근육을 지키는 단백질 식사 이야기 | 식단
+gut-and-mood | 장 건강이 기분까지 바꾼다 | 장건강
+staying-hydrated | 물, 언제 얼마나 마셔야 할까 | 수분
+eye-rest-habits | 눈이 편안한 하루 만들기 | 눈건강
+loneliness-and-health | 외로움도 건강의 문제입니다 | 마음건강
+balance-and-falls | 넘어지지 않는 몸을 만드는 균형 훈련 | 낙상예방
+seasonal-eating | 제철 음식으로 차리는 건강한 밥상 | 식단
+stretching-daily | 굳은 몸을 풀어주는 매일 스트레칭 | 운동
+brain-active | 머리를 젊게 쓰는 생활 습관 | 두뇌건강
+foot-care-habits | 발이 편해야 하루가 편하다 | 발건강
+breathing-and-calm | 숨 고르기로 마음을 다스리는 법 | 마음건강
+sunlight-and-bone | 햇빛과 뼈, 하루 15분의 힘 | 뼈건강
+posture-daily | 목과 허리를 살리는 바른 자세 | 자세
+oral-health-daily | 입안 건강이 온몸 건강 | 구강건강
+hobby-and-longevity | 취미가 주는 건강한 활력 | 마음건강
+smart-snacking | 시니어를 위한 똑똑한 간식 | 식단
+evening-winddown | 잠들기 전 한 시간, 하루를 정리하는 법 | 수면

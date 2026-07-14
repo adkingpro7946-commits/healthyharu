@@ -15,3 +15,6 @@ Thumbs.db
 
 # 건강 사이트와 무관한 폴더(업로드/공개 금지)
 deliverables/
+
+# 배포 산출물
+dist/
