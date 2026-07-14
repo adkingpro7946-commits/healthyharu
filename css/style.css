@@ -501,6 +501,13 @@ main { display: block; }
   .search-bar .btn, .search-page-box .btn { width: 100%; }
 }
 
+/* ---------- 쿠팡 파트너스 배너 ---------- */
+.coupang-block { margin: var(--space-xl) 0 var(--space-md); text-align: center; }
+.coupang-slot { display: flex; justify-content: center; align-items: center; min-height: 100px; }
+.coupang-slot iframe { max-width: 100%; }
+.coupang-note { font-size: 0.82em; color: var(--color-text-soft); margin: 8px 0 0; }
+html.high-contrast .coupang-note { color: var(--color-text); }
+
 /* ---------- 디자인 보강 ---------- */
 /* 히어로 은은한 장식 */
 .hero { position: relative; overflow: hidden; }

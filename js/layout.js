@@ -142,6 +142,29 @@
     document.body.appendChild(adsScript);
   }
 
+  // 쿠팡 파트너스 배너 — 글 페이지 하단에만(도구·홈·법적/신뢰 페이지 제외).
+  // 응급 위험 신호 옆이 아니라 본문 맨 끝(관련 글 아래)에 배치한다.
+  var COUPANG_PAGES = ["symptoms", "supplements", "conditions", "guides"];
+  if (COUPANG_PAGES.indexOf(page) >= 0) {
+    var mainEl = document.querySelector("main");
+    if (mainEl && !document.querySelector(".coupang-block")) {
+      var box = document.createElement("div");
+      box.className = "coupang-block";
+      box.innerHTML =
+        '<div class="container">' +
+          '<div class="coupang-slot" role="complementary" aria-label="쿠팡 파트너스 추천 상품(광고)"></div>' +
+          '<p class="coupang-note">이 배너는 쿠팡 파트너스 활동의 일환으로, 이에 따라 일정액의 수수료를 제공받습니다.</p>' +
+        '</div>';
+      mainEl.appendChild(box);
+    }
+    if (!document.querySelector('script[data-coupang]')) {
+      var cs = document.createElement("script");
+      cs.src = u("js/coupang.js");
+      cs.setAttribute("data-coupang", "1");
+      document.body.appendChild(cs);
+    }
+  }
+
   // 접근성 스크립트가 헤더 주입 후 버튼을 찾도록 이벤트 발행
   document.dispatchEvent(new CustomEvent("layout:ready"));
 })();
