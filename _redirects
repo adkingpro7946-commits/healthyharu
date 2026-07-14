@@ -1,6 +1,2 @@
-# Cloudflare Pages 리디렉션 규칙
-# 대표 URL 정책: https://healthyharu.co.kr (apex, non-www) 를 대표로 한다.
-# www 로 들어오면 대표 도메인으로 301.
-https://www.healthyharu.co.kr/* https://healthyharu.co.kr/:splat 301!
-
-# (참고) www → apex 는 Cloudflare 대시보드의 Redirect Rule 로도 설정할 수 있다.
+# www → apex 리디렉션은 Cloudflare 대시보드 Redirect Rules 로 설정한다.
+# (Cloudflare Workers 정적 자산의 _redirects 는 절대 URL 을 허용하지 않음)
