@@ -9,8 +9,9 @@
   // 배너 설정(공개 임베드 값). 섹션별로 다른 배너를 쓰고 싶으면 키를 추가한다.
   // 예) supplements: { ...건강식품 카테고리 배너... }
   var BANNERS = {
-    _default: { id: 1006671, template: "carousel", trackingCode: "AF5074937", width: 320, height: 100, tsource: "" }
-    // supplements: { id: ______, template: "carousel", trackingCode: "AF5074937", width: 320, height: 100, tsource: "" }
+    _default: { id: 1006671, template: "carousel", trackingCode: "AF5074937", width: 320, height: 100, tsource: "" },
+    // 영양제백과 글 → 건강식품 카테고리 배너(맥락에 맞는 상품)
+    supplements: { id: 1006694, template: "carousel", trackingCode: "AF5074937", width: 320, height: 100, tsource: "" }
   };
 
   var page = (document.body.getAttribute("data-page") || "etc");
