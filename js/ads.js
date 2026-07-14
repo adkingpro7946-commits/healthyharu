@@ -13,7 +13,7 @@
    회색 자리표시(placeholder)만 그대로 둡니다. → 개발/심사 준비 상태.
    ===================================================================== */
 (function () {
-  var ADSENSE_CLIENT = ""; // ← 승인 후 "ca-pub-XXXXXXXXXXXXXXXX" 로 교체
+  var ADSENSE_CLIENT = "ca-pub-8033753532566337";
 
   var slots = document.querySelectorAll(".ad-slot");
   if (slots.length === 0) return;
@@ -26,8 +26,8 @@
     return;
   }
 
-  // 1) 애드센스 로더 스크립트 1회 삽입
-  if (!document.querySelector('script[data-adsense-loader]')) {
+  // 1) 애드센스 로더 스크립트 1회 삽입 (정적 <head> 로더가 이미 있으면 건너뜀)
+  if (!document.querySelector('script[src*="adsbygoogle.js"]')) {
     var s = document.createElement("script");
     s.async = true;
     s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + ADSENSE_CLIENT;
