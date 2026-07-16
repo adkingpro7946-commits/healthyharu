@@ -18,7 +18,7 @@ for (const cat of CATS) {
     if (!f.endsWith(".json")) continue;
     const m: ContentMeta = JSON.parse(readFileSync(p("content/meta", cat, f), "utf8"));
     if (m.contentStatus === "published")
-      items.push({ ...m, url: `${DOMAIN}/${cat}/${m.slug}.html` });
+      items.push({ ...m, url: `${DOMAIN}/${cat}/${m.slug}` });
   }
 }
 items.sort((a, b) => (b.dateModified || "").localeCompare(a.dateModified || ""));

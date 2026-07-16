@@ -60,7 +60,8 @@ async function writeColumn(topic: { slug: string; title: string; tag: string }) 
 function esc(s: string) { return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
 
 function render(topic: any, c: any): string {
-  const url = `${DOMAIN}/columns/${topic.slug}.html`;
+  // Cloudflare(auto-trailing-slash)가 .html 을 떼고 307 하므로 정식 URL은 확장자 없이 쓴다.
+  const url = `${DOMAIN}/columns/${topic.slug}`;
   const tags = (c.tags || [topic.tag]).slice(0, 3).map((t: string) => `<span class="tag">${esc(t)}</span>`).join("");
   const sections = (c.sections || []).map((s: any) => `          <h2>${esc(s.heading)}</h2>\n          <p>${esc(s.body)}</p>`).join("\n");
   const actions = (c.todayActions || []).map((a: string) => `            <li>${esc(a)}</li>`).join("\n");
@@ -85,8 +86,8 @@ function render(topic: any, c: any): string {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${esc(c.title)} — 건강 칼럼">
   <meta name="twitter:description" content="${esc(c.description)}">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${esc(c.title)}","description":"${esc(c.description)}","datePublished":"${TODAY}","dateModified":"${TODAY}","author":{"@type":"Organization","name":"건강한 하루 편집팀","url":"${DOMAIN}/authors.html"},"publisher":{"@type":"Organization","name":"건강한 하루","url":"${DOMAIN}/"},"mainEntityOfPage":"${url}","inLanguage":"ko-KR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"${DOMAIN}/"},{"@type":"ListItem","position":2,"name":"건강 칼럼","item":"${DOMAIN}/columns/index.html"},{"@type":"ListItem","position":3,"name":"${esc(c.title)}","item":"${url}"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"${esc(c.title)}","description":"${esc(c.description)}","datePublished":"${TODAY}","dateModified":"${TODAY}","author":{"@type":"Organization","name":"건강한 하루 편집팀","url":"${DOMAIN}/authors"},"publisher":{"@type":"Organization","name":"건강한 하루","url":"${DOMAIN}/"},"mainEntityOfPage":"${url}","inLanguage":"ko-KR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"${DOMAIN}/"},{"@type":"ListItem","position":2,"name":"건강 칼럼","item":"${DOMAIN}/columns/"},{"@type":"ListItem","position":3,"name":"${esc(c.title)}","item":"${url}"}]}</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUB}" crossorigin="anonymous"></script>
 </head>
 <body data-page="columns">
