@@ -1,22 +1,153 @@
-# 자동 건강 칼럼 주제 풀 (A등급: 생활·웰빙만). 형식: slug | 제목 | 태그
-# 특정 약물 용량·진단·응급 판단은 칼럼 주제로 쓰지 않는다(안전).
-morning-routine | 아침을 여는 시니어 건강 루틴 | 생활습관
-good-sleep-habits | 나이 들수록 잘 자는 법 | 수면
-walking-everyday | 매일 걷기, 무릎을 지키며 오래 걷는 법 | 운동
-protein-for-seniors | 근육을 지키는 단백질 식사 이야기 | 식단
-gut-and-mood | 장 건강이 기분까지 바꾼다 | 장건강
-staying-hydrated | 물, 언제 얼마나 마셔야 할까 | 수분
-eye-rest-habits | 눈이 편안한 하루 만들기 | 눈건강
-loneliness-and-health | 외로움도 건강의 문제입니다 | 마음건강
-balance-and-falls | 넘어지지 않는 몸을 만드는 균형 훈련 | 낙상예방
-seasonal-eating | 제철 음식으로 차리는 건강한 밥상 | 식단
-stretching-daily | 굳은 몸을 풀어주는 매일 스트레칭 | 운동
-brain-active | 머리를 젊게 쓰는 생활 습관 | 두뇌건강
-foot-care-habits | 발이 편해야 하루가 편하다 | 발건강
-breathing-and-calm | 숨 고르기로 마음을 다스리는 법 | 마음건강
-sunlight-and-bone | 햇빛과 뼈, 하루 15분의 힘 | 뼈건강
-posture-daily | 목과 허리를 살리는 바른 자세 | 자세
-oral-health-daily | 입안 건강이 온몸 건강 | 구강건강
-hobby-and-longevity | 취미가 주는 건강한 활력 | 마음건강
-smart-snacking | 시니어를 위한 똑똑한 간식 | 식단
-evening-winddown | 잠들기 전 한 시간, 하루를 정리하는 법 | 수면
+# 자동 건강 칼럼 주제 풀 (A등급: 생활·웰빙만)
+# 형식: slug | 제목 | 태그 | 발행월(선택, 콤마구분)
+#  - 발행월을 적으면 그 달에 우선 발행된다. 비우면 아무 달이나 가능.
+#  - 특정 약물 용량·확정 진단·응급 판단 기준은 칼럼 주제로 쓰지 않는다(안전 정책 A등급).
+#  - 하루 1편 소비된다. 남은 주제가 20개 밑으로 떨어지면 워크플로가 경고한다.
+
+# ── 계절·월별 ─────────────────────────────────────
+new-year-health-plan | 새해 건강 계획, 작심삼일을 넘기는 법 | 생활습관 | 1
+winter-cold-safety | 한파에 몸을 지키는 겨울 생활법 | 계절건강 | 1,2,12
+winter-dry-skin | 겨울철 가려움과 건조함 다스리기 | 피부건강 | 12,1,2
+lunar-newyear-eating | 명절 음식, 부담 없이 즐기는 요령 | 식단 | 1,2
+spring-fatigue | 봄이면 왜 이렇게 노곤할까 | 계절건강 | 3,4
+spring-allergy-life | 봄철 코와 눈이 편안한 하루 | 계절건강 | 3,4,5
+fine-dust-days | 미세먼지 심한 날의 생활 요령 | 계절건강 | 3,4,5
+spring-outdoor-start | 겨우내 굳은 몸, 봄에 다시 움직이기 | 운동 | 3,4
+rainy-season-joints | 장마철, 무릎이 더 쑤시는 이유 | 계절건강 | 6,7
+summer-appetite | 더위에 입맛 없을 때 챙기는 한 끼 | 식단 | 6,7,8
+summer-sleep-heat | 열대야에 잠들기 위한 준비 | 수면 | 7,8
+cooling-without-cold | 냉방병 없이 시원하게 지내는 법 | 계절건강 | 7,8
+autumn-transition | 환절기, 몸이 흔들리는 시기를 넘기기 | 계절건강 | 9,10
+chuseok-family-health | 명절 뒤 찾아오는 피로 다스리기 | 생활습관 | 9,10
+autumn-walking | 걷기 좋은 계절, 가을을 제대로 쓰는 법 | 운동 | 10,11
+early-winter-prep | 추워지기 전에 미리 준비하는 몸 | 계절건강 | 11,12
+year-end-reflection | 한 해를 정리하며 돌아보는 내 건강 | 마음건강 | 12
+
+# ── 수면 ─────────────────────────────────────────
+good-sleep-habits | 나이 들수록 잘 자는 법 | 수면 |
+evening-winddown | 잠들기 전 한 시간, 하루를 정리하는 법 | 수면 |
+early-waking | 너무 일찍 깨는 아침이 반복될 때 | 수면 |
+nap-the-right-way | 낮잠, 약이 되게 자는 법 | 수면 |
+bedroom-setup | 잠이 잘 오는 방 만들기 | 수면 |
+night-bathroom-trips | 밤에 자꾸 깨는 밤, 무엇을 바꿀까 | 수면 |
+sleep-and-mood | 잠이 마음을 어떻게 바꾸는가 | 수면 |
+
+# ── 운동·근력·균형 ────────────────────────────────
+walking-everyday | 매일 걷기, 무릎을 지키며 오래 걷는 법 | 운동 |
+stretching-daily | 굳은 몸을 풀어주는 매일 스트레칭 | 운동 |
+balance-and-falls | 넘어지지 않는 몸을 만드는 균형 훈련 | 낙상예방 |
+chair-exercise | 의자에 앉아서 하는 근력 운동 | 운동 |
+grip-strength | 악력이 알려주는 내 몸의 신호 | 운동 |
+stairs-and-knees | 계단, 무릎을 아끼며 오르내리기 | 운동 |
+morning-vs-evening-exercise | 운동은 아침이 좋을까 저녁이 좋을까 | 운동 |
+exercise-restart | 오래 쉬었다가 다시 시작할 때 | 운동 |
+walking-posture | 잘 걷는 자세 하나로 달라지는 것들 | 운동 |
+muscle-loss-prevention | 조용히 빠져나가는 근육 붙잡기 | 근력 |
+water-exercise-basics | 물속 운동이 관절에 편한 이유 | 운동 |
+daily-step-goal | 하루 몇 걸음이 나에게 맞을까 | 운동 |
+
+# ── 식단 ─────────────────────────────────────────
+protein-for-seniors | 근육을 지키는 단백질 식사 이야기 | 식단 |
+seasonal-eating | 제철 음식으로 차리는 건강한 밥상 | 식단 |
+smart-snacking | 시니어를 위한 똑똑한 간식 | 식단 |
+salt-reduction-korean | 국과 김치를 포기하지 않고 싱겁게 먹기 | 식단 |
+breakfast-matters | 아침을 거르는 습관이 남기는 것 | 식단 |
+chewing-and-digestion | 잘 씹는 것만으로 달라지는 소화 | 식단 |
+cooking-for-one | 혼자 차리는 밥상, 간단하고 건강하게 | 식단 |
+vegetable-everyday | 나물과 채소를 매일 먹는 현실적인 방법 | 식단 |
+whole-grains | 흰쌀밥을 조금씩 바꿔보기 | 식단 |
+eating-out-choices | 밖에서 먹을 때 고르는 요령 | 식단 |
+fruit-timing | 과일, 얼마나 어떻게 먹을까 | 식단 |
+cooking-oil-basics | 기름, 알고 쓰면 달라진다 | 식단 |
+food-shopping | 장보기부터 시작되는 건강한 식사 | 식단 |
+late-night-eating | 늦은 밤 먹는 습관 되돌리기 | 식단 |
+appetite-changes | 나이 들며 입맛이 변하는 이유 | 식단 |
+
+# ── 수분·체온 ────────────────────────────────────
+staying-hydrated | 물, 언제 얼마나 마셔야 할까 | 수분 |
+thirst-signal-fades | 목마름을 못 느끼게 되는 나이 | 수분 |
+coffee-and-tea | 커피와 차, 나에게 맞는 양 찾기 | 수분 |
+cold-hands-feet-life | 손발이 늘 찬 사람의 생활 습관 | 체온 |
+body-temperature-daily | 체온을 지키는 하루 습관 | 체온 |
+
+# ── 마음건강·관계 ─────────────────────────────────
+loneliness-and-health | 외로움도 건강의 문제입니다 | 마음건강 |
+breathing-and-calm | 숨 고르기로 마음을 다스리는 법 | 마음건강 |
+hobby-and-longevity | 취미가 주는 건강한 활력 | 마음건강 |
+retirement-identity | 은퇴 후 찾아오는 마음의 빈자리 | 마음건강 |
+worry-at-night | 밤이면 커지는 걱정 다루기 | 마음건강 |
+gratitude-habit | 감사하는 습관이 몸에 남기는 것 | 마음건강 |
+saying-no | 거절하지 못하는 마음의 무게 | 마음건강 |
+grandchildren-care | 손주 돌봄, 기쁨과 부담 사이 | 마음건강 |
+old-friends | 오래된 친구를 다시 만나는 일 | 관계 |
+couple-in-later-life | 나이 들어가는 부부의 대화 | 관계 |
+asking-for-help | 도움을 청하는 것도 능력입니다 | 마음건강 |
+laughter-and-body | 웃음이 몸에 하는 일 | 마음건강 |
+
+# ── 눈·귀·구강·발 ─────────────────────────────────
+eye-rest-habits | 눈이 편안한 하루 만들기 | 눈건강 |
+screen-and-eyes | 휴대폰과 텔레비전, 눈을 아끼며 보기 | 눈건강 |
+reading-light | 책 읽기 좋은 빛 만들기 | 눈건강 |
+hearing-in-noise | 시끄러운 곳에서 잘 안 들릴 때 | 귀건강 |
+ear-care-daily | 귀를 아끼는 생활 습관 | 귀건강 |
+oral-health-daily | 입안 건강이 온몸 건강 | 구강건강 |
+dry-mouth-life | 입이 자꾸 마를 때의 생활 요령 | 구강건강 |
+denture-life | 틀니와 함께 편하게 지내기 | 구강건강 |
+foot-care-habits | 발이 편해야 하루가 편하다 | 발건강 |
+shoes-for-seniors | 신발 하나로 달라지는 하루 | 발건강 |
+
+# ── 두뇌 ─────────────────────────────────────────
+brain-active | 머리를 젊게 쓰는 생활 습관 | 두뇌건강 |
+name-forgetting | 이름이 잘 안 떠오를 때 | 두뇌건강 |
+learning-new-things | 새로 배우는 일이 뇌에 남기는 것 | 두뇌건강 |
+reading-habit | 읽는 습관이 주는 힘 | 두뇌건강 |
+hand-and-brain | 손을 쓰는 일과 머리의 관계 | 두뇌건강 |
+music-and-memory | 음악이 기억을 깨우는 방식 | 두뇌건강 |
+
+# ── 소화·장 ──────────────────────────────────────
+gut-and-mood | 장 건강이 기분까지 바꾼다 | 장건강 |
+regular-bowel | 규칙적인 배변을 만드는 하루 | 장건강 |
+fiber-everyday | 식이섬유를 자연스럽게 늘리는 법 | 장건강 |
+fermented-korean | 발효 음식이 우리 밥상에 있는 이유 | 장건강 |
+bloating-life | 속이 자주 더부룩한 사람의 생활 | 장건강 |
+eating-slowly | 천천히 먹기가 어려운 이유 | 장건강 |
+
+# ── 뼈·관절 ──────────────────────────────────────
+sunlight-and-bone | 햇빛과 뼈, 하루 15분의 힘 | 뼈건강 |
+posture-daily | 목과 허리를 살리는 바른 자세 | 자세 |
+joint-warmup | 움직이기 전 관절을 깨우는 법 | 관절 |
+sitting-too-long | 오래 앉아 있는 시간을 끊어내기 | 자세 |
+carrying-things | 무거운 것을 드는 안전한 방법 | 관절 |
+morning-stiffness-life | 아침에 몸이 뻣뻣한 날의 요령 | 관절 |
+
+# ── 집·안전 ──────────────────────────────────────
+home-safety-check | 집 안에서 넘어지지 않게 만드는 점검 | 낙상예방 |
+bathroom-safety | 화장실, 가장 조심해야 할 공간 | 낙상예방 |
+lighting-at-night | 밤에 켜두는 작은 불빛의 힘 | 낙상예방 |
+clutter-and-falls | 바닥에 놓인 물건이 만드는 위험 | 낙상예방 |
+stairs-at-home | 집 안 계단과 문턱 다루기 | 낙상예방 |
+kitchen-safety | 부엌에서 안전하게 움직이기 | 안전 |
+outdoor-walking-safety | 밖에서 걸을 때 조심할 것들 | 안전 |
+emergency-contacts | 급할 때 연락할 곳을 미리 정해두기 | 안전 |
+
+# ── 생활습관·루틴 ─────────────────────────────────
+morning-routine | 아침을 여는 시니어 건강 루틴 | 생활습관 |
+small-habit-start | 아주 작게 시작해야 오래 가는 이유 | 생활습관 |
+health-record | 내 몸을 기록하는 습관 | 생활습관 |
+checkup-preparation | 건강검진을 제대로 받는 준비 | 생활습관 |
+doctor-visit-questions | 진료실에서 묻고 싶은 걸 다 묻는 법 | 생활습관 |
+health-info-literacy | 넘치는 건강 정보, 무엇을 믿을까 | 생활습관 |
+smoking-and-later-life | 늦은 나이에 끊어도 늦지 않은 이유 | 생활습관 |
+alcohol-in-later-life | 나이 들며 달라지는 술과의 거리 | 생활습관 |
+weekend-rhythm | 규칙적인 리듬이 몸에 주는 안정 | 생활습관 |
+seasonal-checkup | 계절이 바뀔 때 점검할 것들 | 생활습관 |
+
+# ── 사회·일상 ────────────────────────────────────
+community-center | 가까운 곳에서 함께할 사람 찾기 | 사회활동 |
+volunteering-health | 남을 돕는 일이 나에게 남기는 것 | 사회활동 |
+digital-life | 스마트폰과 건강하게 지내기 | 생활습관 |
+travel-preparation | 여행을 앞두고 준비하는 몸 | 생활습관 |
+gardening-and-body | 흙을 만지는 일이 주는 것 | 취미 |
+pet-and-health | 반려동물과 함께 사는 하루 | 취미 |
+cooking-as-hobby | 요리가 취미가 될 때 | 취미 |
+walking-with-others | 혼자보다 둘이 걸을 때 | 사회활동 |

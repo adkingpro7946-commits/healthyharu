@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "health-site",
-      "runtimeExecutable": "python",
+      "runtimeExecutable": "py",
       "runtimeArgs": ["-m", "http.server", "5500"],
       "port": 5500
     }
