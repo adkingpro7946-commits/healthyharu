@@ -131,6 +131,7 @@ function userPrompt(topic: Topic, idx: Related[], extra = ""): string {
     `  "description": "검색결과에 뜰 요약. 140자 이내, 이 글을 읽으면 뭘 얻는지",\n` +
     `  "tags": ["${topic.tag}", "태그2", "태그3"],\n` +
     `  "relatedIds": [번호, 번호, 번호],\n` +
+    `  "coupangKeyword": "이 글과 자연스럽게 어울리는 쿠팡 상품 검색어 1개(예: 무릎 글→'무릎 보호대', 수면 글→'수면 안대'). 시니어가 실제로 살 만한 생활용품으로. 마땅한 상품이 없으면(예: 외로움·감사 같은 마음 주제) 빈 문자열 \"\".",\n` +
     `  "intro": "도입 4~6문장. 독자가 '내 얘기다' 하고 느낄 상황으로 연다",\n` +
     `  "sections": [{"heading":"소제목", "body":"5~8문장. 원리→실천 순서로"}],  // 4~5개, 가장 긴 부분\n` +
     `  "myth": {"claim":"이 주제에 흔한 오해 한 문장", "truth":"실제로는 어떤지 3~4문장"},\n` +
@@ -210,6 +211,12 @@ function render(topic: Topic, c: any, related: Related[]): string {
   const relHtml = related
     .map((r) => `            <a class="link-card" href="../${r.u}"><h3>${esc(r.t)}</h3><p>${esc((r.d || "").slice(0, 70))}…</p></a>`)
     .join("\n");
+
+  // 쿠팡 상품 자동 추천: 키워드가 있으면 placeholder만 심는다(실제 상품은 브라우저에서 API로 채움).
+  const kw = (c.coupangKeyword || "").trim();
+  const coupangBlock = kw
+    ? `\n        <div class="coupang-products" data-keyword="${esc(kw)}" data-subid="columns" data-limit="3"></div>\n`
+    : "";
 
   // FAQ 구조화 데이터 — 구글 검색결과에 질문이 펼쳐질 수 있다(SEO)
   const faqLd = (c.faq || []).length
@@ -296,6 +303,7 @@ ${c.closing ? `\n          <p>${esc(c.closing)}</p>` : ""}
           </div>
         </div>
 
+${coupangBlock}
         <div class="related-links">
           <h3>함께 보면 좋은 글</h3>
           <div class="grid cols-2">

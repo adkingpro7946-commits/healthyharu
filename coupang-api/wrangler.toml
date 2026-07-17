@@ -1,0 +1,8 @@
+# 쿠팡 파트너스 API 프록시 Worker (사이트 Worker와 분리 — 사이트엔 영향 없음)
+# 배포:  npx wrangler deploy --config coupang-api/wrangler.toml
+# 비밀값: npx wrangler secret put COUPANG_ACCESS_KEY --config coupang-api/wrangler.toml
+#         npx wrangler secret put COUPANG_SECRET_KEY --config coupang-api/wrangler.toml
+name = "coupang-api"
+main = "worker.js"
+account_id = "3bf1eacb39bd7a532777598489ee2829"
+compatibility_date = "2025-06-01"

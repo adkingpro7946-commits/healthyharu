@@ -166,6 +166,16 @@
     }
   }
 
+  // 쿠팡 상품 자동 추천(API) — 페이지에 .coupang-products[data-keyword] 가 있을 때만 동작.
+  // 없으면 스크립트가 즉시 종료하므로 다른 페이지엔 부담이 없다.
+  if (document.querySelector(".coupang-products[data-keyword]") &&
+      !document.querySelector('script[data-coupang-products]')) {
+    var cps = document.createElement("script");
+    cps.src = u("js/coupang-products.js");
+    cps.setAttribute("data-coupang-products", "1");
+    document.body.appendChild(cps);
+  }
+
   // 접근성 스크립트가 헤더 주입 후 버튼을 찾도록 이벤트 발행
   document.dispatchEvent(new CustomEvent("layout:ready"));
 })();
