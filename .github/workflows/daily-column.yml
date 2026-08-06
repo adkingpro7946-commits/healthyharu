@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 사이트맵 lastmod를 실제 커밋 날짜로 계산하려면 전체 히스토리 필요
 
       - uses: actions/setup-node@v4
         with:

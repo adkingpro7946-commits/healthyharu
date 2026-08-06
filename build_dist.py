@@ -11,7 +11,7 @@ DIST = os.path.join(ROOT, "dist")
 # 복사할 폴더(정적 자산)
 COPY_DIRS = ["css", "js", "assets", "data", "symptoms", "supplements", "conditions", "guides", "tools", "columns"]
 # 복사할 루트 파일
-COPY_FILES = ["sitemap.xml", "robots.txt", "ads.txt", "feed.xml", "_redirects"]
+COPY_FILES = ["sitemap.xml", "robots.txt", "ads.txt", "feed.xml", "rss.xml", "_redirects"]
 
 if os.path.exists(DIST):
     shutil.rmtree(DIST)

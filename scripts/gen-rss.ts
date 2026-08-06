@@ -48,5 +48,8 @@ const xml = [
   "</channel></rss>",
 ].join("\n");
 
+// feed.xml 과 rss.xml 을 모두 생성한다.
+// (구글 서치콘솔에 /rss.xml 로 제출돼 있어 그 이름으로도 200 응답이 필요하다.)
 writeFileSync(p("feed.xml"), xml + "\n", "utf8");
-console.log(`feed.xml 생성: 발행 글 ${items.length}개 중 최신 ${recent.length}개 수록`);
+writeFileSync(p("rss.xml"), xml + "\n", "utf8");
+console.log(`feed.xml · rss.xml 생성: 발행 글 ${items.length}개 중 최신 ${recent.length}개 수록`);
